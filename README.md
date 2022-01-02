@@ -1,9 +1,12 @@
 # ask-clip
 OpenAI CLIP based web design assistant PoC
 
+## Sys Requirements
+ This code needs a machine with CUDA toolkit installed. Will not work on Mac.
+
 ## Geting Started
 - Create Python virtual environment and activate it.
-- Install Pytorch using [this instructions](https://pytorch.org/get-started/locally/)
+- Install Pytorch with CUDA using [this instructions](https://pytorch.org/get-started/locally/).
 - in your shell run `pip install -r requirements.txt`
 
 ## Using ask-clip
